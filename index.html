@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roomway</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="contain">
+    <img src="img/weblogo_white.png" alt="" class="logo">
+    <p class="name">roomway</p> 
+
+    <p class="tlt" style="color: white;">Are you searching for a roommate who </p>
+    <p class="tlt">
+      <ul class="texts">
+          <li>is clean?</li>   
+          <li>is friendly?</li>
+          <li>isn't always broke?</li>
+          <li>loves star wars?</li>
+          <li>can cook?</li>
+          <li>doesn't smoke?</li>
+          <li>loves to party?</li>
+          <li>is responsible?</li>
+          <li>loves dogs?</li>
+          <li>is an artist?</li>
+          <li>respects privacy?</li>
+          <li>has great music taste?</li>
+      </ul>
+    </p>
+    <p class="soon">Coming soon.</p>
+  </div>
+</div> 
+
+<script>
+  $('.texts').textillate({
+    initialDelay: 0,
+    minDisplayTime: 1000,     
+    autoStart: true,
+    in: { effect: 'fadeIn', sync: true }, 
+    out :{ effect: 'fadeOut', sync: true},
+    loop: true
+});
+</script>
+
+
+</body>
+</html>
