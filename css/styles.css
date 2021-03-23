@@ -51,14 +51,24 @@ body, html {
     text-align: center;
   }
 
+  .modal-backdrop  {
+    opacity:0.5 !important;
+  }
+
+  .btn-primary {
+    background-color: transparent;
+    border-color: white;
+  }
+
   @media only screen and (max-width: 477px) {
     .name {
       font-size: 75px;
       margin-top: 0.25px;
     }
-  
+  }
   @media only screen and (max-width: 360px) {
     .name {
       font-size: 60px;
       margin-top: 0.25px;
     }
+  }
